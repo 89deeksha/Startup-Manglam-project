@@ -1,0 +1,36 @@
+#navbar {
+  height: 10vh;
+  width: 98vw;
+
+  color: antiquewhite;
+  display: flex;
+  gap: 5vw;
+  justify-content: flex-end;
+  margin-top: 1vw;
+}
+
+#nav-1 {
+  height: 5vw;
+  width: 50vw;
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4vw;
+  white-space: nowrap;
+
+  /* margin-left: 50vw; */
+  font-weight: 600;
+  color: white;
+}
+
+#nav-2 {
+  height: 4vw;
+  width: 20vw;
+  border-radius: 1vw;
+  color: white;
+  background: linear-gradient(45deg, #f26ba3, #db3843);
+  border-color: #fa62a2;
+  font-size: medium;
+  font-weight: 700;
+}

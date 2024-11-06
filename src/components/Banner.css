@@ -1,0 +1,215 @@
+#full-banner {
+  height: 40vw;
+  width: 100vw;
+
+  display: flex;
+}
+
+#image {
+  height: 100%;
+  width: 50%;
+  /* background-color: darkgreen; */
+  position: relative;
+  overflow: hidden;
+
+  z-index: 10;
+}
+
+#graph {
+  height: 16vw;
+  width: 18vw;
+  background-color: purple;
+  position: absolute;
+  border-radius: 20%;
+  top: 9vw;
+  z-index: 5;
+  left: 6vw;
+  background-image: url("../assets/growing-chart-grey-blue-bar-graph-business-growth-success-concepts-d-rendering-abstract-growing-chart-bar-graph-99013357-removebg-preview.png");
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#blue-circle {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 50%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 2vw;
+  right: 8vw;
+  z-index: 2;
+}
+
+#orange-circle {
+  height: 34vw;
+  width: 34vw;
+  border-radius: 50%;
+  background-color: rgb(225, 100, 51);
+  position: absolute;
+  z-index: 1;
+  /* top: 3vw; */
+  /* left: 2vw; */
+  right: 1vw;
+  bottom: 2vw;
+  overflow: hidden;
+}
+
+#green-card {
+  height: 6vw;
+  width: 12vw;
+  border-radius: 10%;
+  background-color: rgb(120, 229, 229);
+  position: absolute;
+  z-index: 4;
+  bottom: 8vw;
+  left: 8vw;
+  background-image: url("../assets/Screenshot-2023-03-23-at-16.16.43-removebg-preview.png");
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#inner-circle {
+  height: 12vw;
+  width: 12vw;
+  border-radius: 50%;
+  background-color: rgb(112, 112, 237);
+  position: absolute;
+  /* top: 5vw;
+  left: 3vw;
+  z-index: 2; */
+}
+
+#img {
+  height: 35vw;
+  width: 35vw;
+  background-image: url(https://s3-alpha-sig.figma.com/img/bf28/2545/5c16810c4fb9e50177f085044b7d0acf?Expires=1731888000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dythVHGcU5Gz5ohrz759Dlkg0JMequEelmODGl5MSB4ViXIQG-u1x2dnZokFEr9nmQtw2Tek6~iKPzV9st1LPdOERGkugemb2jnxQsf3VWnUZC0QIU1dVGHuDuksZMuNu1BCDF5ojMlJlINDuoY2wD8T8uWfsh2BbgLEM7BWrh-mnpYgRKi8l5fZUDpfkGnQR5EI6Ov1aeoU1swOcWUjJuJIGykPovT6OzBneEBVIQWJE3bFqZzQmktwHnWyMsP8DTby8W8ijBesorcfIa2qtfMT6rzKmadsb~mhoaS-JtNURcLJNSVA~gLAIIL0FR~zXkGxmZcvFgdZ6ECWTIzTPg__);
+  position: absolute;
+  top: 4vw;
+  left: 15vw;
+  z-index: 7;
+  /* opacity: 0.9; */
+  background-size: cover;
+  /* background-size: contain; */
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#content {
+  height: 5vh;
+  width: 40vw;
+  /* align-items: center;
+  justify-content: center; */
+  color: #8ce8f4;
+  margin-left: 6vw;
+  margin-top: 15vw;
+
+  word-spacing: 5px;
+}
+
+#BTN {
+  height: 4vw;
+  width: 12vw;
+  background: linear-gradient(#f96aa6, #d72dc6bf);
+  border-radius: 10px;
+  border-color: #f96aa6;
+  color: white;
+  font-weight: 700;
+  margin-top: 10vw;
+  margin-left: 7vw;
+}
+
+#Below-BTN {
+  height: 4vw;
+  width: 10vw;
+
+  margin-top: 3vw;
+  margin-left: 7vw;
+  color: white;
+}
+
+#pink-circle {
+  height: 12vw;
+  width: 12vw;
+  background: linear-gradient(45deg, #b134d078, #ecbaf978);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 1vw;
+  left: 9vw;
+  z-index: 3;
+}
+
+#Flip-arrow {
+  height: 5vw;
+  width: 5vw;
+  position: absolute;
+  right: 1vw;
+  top: 13vw;
+  z-index: 3;
+  background-image: url("../assets/image.png");
+
+  background-size: cover;
+
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#happy-cust {
+  height: 0.5vh;
+  width: 10vw;
+  font-weight: 4vw;
+  font-size: 0.9vw;
+  margin-left: 7vw;
+  color: white;
+}
+
+#emoji {
+  height: 4vw;
+  width: 4vw;
+  position: absolute;
+  right: 25vw;
+  top: 28vw;
+  z-index: 2;
+  background-image: url("../assets/Emoji.png");
+  background-size: cover;
+
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#pnk-circle {
+  height: 9vw;
+  width: 9vw;
+  background: linear-gradient(45deg, #b134d078, #ecbaf978);
+  border-radius: 60%;
+  position: absolute;
+  bottom: 6vw;
+  right: -2vw;
+  z-index: 3;
+}
+
+#white-box {
+  height: 4vw;
+  width: 4vw;
+  background-color: white;
+  border-radius: 30%;
+  z-index: 4;
+  position: relative;
+  left: 42vw;
+  top: 6vw;
+}
+#below-BTn {
+  height: 5vw;
+  width: 4vw;
+  display: flex;
+  flex-direction: column;
+}
